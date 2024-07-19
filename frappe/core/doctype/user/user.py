@@ -113,9 +113,8 @@ class User(Document):
 		send_me_a_copy: DF.Check
 		send_welcome_email: DF.Check
 		simultaneous_sessions: DF.Int
+		skills: DF.Table[Skills]
 		social_logins: DF.Table[UserSocialLogin]
-		table_pqum: DF.Table[WorkExperience]
-		table_qkbg: DF.Table[Skills]
 		thread_notify: DF.Check
 		time_zone: DF.Autocomplete | None
 		unsubscribed: DF.Check
@@ -123,6 +122,7 @@ class User(Document):
 		user_image: DF.AttachImage | None
 		user_type: DF.Link | None
 		username: DF.Data | None
+		work_experience: DF.Table[WorkExperience]
 	# end: auto-generated types
 
 	__new_password = None

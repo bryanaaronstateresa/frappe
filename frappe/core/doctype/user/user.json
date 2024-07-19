@@ -17,9 +17,9 @@
   "mobile_no",
   "location",
   "recent_work_experience_section",
-  "table_pqum",
+  "work_experience",
   "tech_stack__skills_section",
-  "table_qkbg",
+  "skills",
   "upload_document_section",
   "resume",
   "cover_letter",
@@ -740,19 +740,9 @@
    "label": "Recent Work Experience"
   },
   {
-   "fieldname": "table_pqum",
-   "fieldtype": "Table",
-   "options": "Work Experience"
-  },
-  {
    "fieldname": "tech_stack__skills_section",
    "fieldtype": "Section Break",
    "label": "Tech Stack / Skills"
-  },
-  {
-   "fieldname": "table_qkbg",
-   "fieldtype": "Table",
-   "options": "Skills"
   },
   {
    "fieldname": "upload_document_section",
@@ -768,6 +758,16 @@
    "fieldname": "cover_letter",
    "fieldtype": "Attach",
    "label": "Cover Letter"
+  },
+  {
+   "fieldname": "work_experience",
+   "fieldtype": "Table",
+   "options": "Work Experience"
+  },
+  {
+   "fieldname": "skills",
+   "fieldtype": "Table",
+   "options": "Skills"
   }
  ],
  "icon": "fa fa-user",
@@ -831,7 +831,7 @@
   }
  ],
  "make_attachments_public": 1,
- "modified": "2024-07-19 13:53:05.729166",
+ "modified": "2024-07-19 18:43:59.441455",
  "modified_by": "Administrator",
  "module": "Core",
  "name": "User",
